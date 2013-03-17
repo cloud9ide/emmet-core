@@ -1281,7 +1281,7 @@ if (typeof exports !== 'undefined') {
 
 // export as Require.js module
 if (typeof define !== 'undefined') {
-	define(emmet);
+	define("emmet", [], emmet);
 }/**
  * Emmet abbreviation parser.
  * Takes string abbreviation and recursively parses it into a tree. The parsed 
